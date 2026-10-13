@@ -56,8 +56,8 @@ about your laptop. Two people running the same notebook on the same data with
 the same seed can get different numbers, because different hardware does the
 arithmetic in a slightly different order. Unit 6 asks you to report it beside
 your three seeds, and `results.json` records it for you.
-
----
+I got cpu
+--- 
 
 ## The notebook
 
