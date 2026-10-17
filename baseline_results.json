@@ -1,0 +1,109 @@
+{
+  "model": "facebook/bart-large-mnli",
+  "n": 15,
+  "seed": 42,
+  "held_out": false,
+  "used_definitions": true,
+  "scores": {
+    "n": 15,
+    "accuracy": 0.5333333333333333,
+    "f1_macro": 0.4724310776942356,
+    "per_label": {
+      "creative": {
+        "precision": 1.0,
+        "recall": 0.16666666666666666,
+        "f1": 0.2857142857142857,
+        "support": 6
+      },
+      "engaging": {
+        "precision": 0.46153846153846156,
+        "recall": 1.0,
+        "f1": 0.631578947368421,
+        "support": 6
+      },
+      "informational": {
+        "precision": 1.0,
+        "recall": 0.3333333333333333,
+        "f1": 0.5,
+        "support": 3
+      }
+    }
+  },
+  "predictions": [
+    {
+      "text": "Alligator Stole My Tongs\u2026Now I Need Them Back!!!",
+      "gold": "creative",
+      "predicted": "engaging"
+    },
+    {
+      "text": "Alligator Husband Knows NOT To Bite Wife's Foot",
+      "gold": "informational",
+      "predicted": "informational"
+    },
+    {
+      "text": "I Turned My Alligator Pool Into A Tomato Garden! \ud83d\udc0a\ud83c\udf45\ud83e\udeb4",
+      "gold": "creative",
+      "predicted": "engaging"
+    },
+    {
+      "text": "Only Thing Between Me and My Alligator: a Bucket",
+      "gold": "engaging",
+      "predicted": "engaging"
+    },
+    {
+      "text": "How Many Colorful Fish Are Left in Alligator Pool? \ud83e\udd14",
+      "gold": "engaging",
+      "predicted": "engaging"
+    },
+    {
+      "text": "Alligator Walks Into House",
+      "gold": "engaging",
+      "predicted": "engaging"
+    },
+    {
+      "text": "NEW pets are moving into the Alligator House!!! We can't wait!!!\ud83d\ude4c",
+      "gold": "engaging",
+      "predicted": "engaging"
+    },
+    {
+      "text": "TOMORROW for the first time in a LONG TIME we do a FULL ANIMAL TOUR!!! I care for over 30+ exotic rescued animals (not just Soni & Chompers \ud83d\ude02) and I can't wait for you to meet them. Tune in to the YT premiere at 8am MST/10am EST \ud83d\udc0a\ud83d\udc0d\ud83e\udd8e\ud83d\udc22\ud83d\udc36\ud83d\udc26\ud83d\udd77\ufe0f",
+      "gold": "engaging",
+      "predicted": "engaging"
+    },
+    {
+      "text": "Alligator Wife Tries To Get Her Husband's Attention \ud83d\ude33",
+      "gold": "creative",
+      "predicted": "creative"
+    },
+    {
+      "text": "Alligators Wait for my Mother-in-Law to Fall \ud83d\ude33",
+      "gold": "creative",
+      "predicted": "engaging"
+    },
+    {
+      "text": "Will Snapping Turtle Eat Fish? \ud83e\udd14",
+      "gold": "informational",
+      "predicted": "engaging"
+    },
+    {
+      "text": "Alligator Wife Makes Husband Bleed",
+      "gold": "engaging",
+      "predicted": "engaging"
+    },
+    {
+      "text": "Alligator Wife Uses Husband As Raft",
+      "gold": "creative",
+      "predicted": "engaging"
+    },
+    {
+      "text": "Did you know I care for MORE than just Alligators?!!! \ud83d\ude02 My animal family includes over 30+ exotic animals, the majority of them being rescues. We live and breathe for our animals, and it takes A LOT of work to care for them. For the first time EVER we do a BTS video of a day in the life of what goes into it! Comment the word \u201cBTS\u201d for the video \ud83d\ude0a\ud83d\udc0a\ud83e\udd8e\ud83d\udc22\ud83d\udc0d",
+      "gold": "informational",
+      "predicted": "engaging"
+    },
+    {
+      "text": "Giant Snake Crashes Witches Night Out \ud83d\udc0d\ud83e\uddd9\u200d\u2640\ufe0f",
+      "gold": "creative",
+      "predicted": "engaging"
+    }
+  ]
+}

@@ -217,6 +217,15 @@ of next unit's variance. -->
 | 3.  |  |  |  |  |  |
 | 4.  |  |  |  |  |  |
 | 5.  |  |  |  |  |  |
+| Measure | Seed 42 | Seed 7 | Seed 2024 | Spread |
+|---|---|---|---|---|
+| Overall accuracy | 0.525 | 0.525 | 0.525 | 0.000 |
+| Macro F1 | 0.230 | 0.230 | 0.230 | 0.000 |
+| F1 — `creative` | 0.000 | 0.000 | 0.000 | 0.000 |
+| F1 — `informational` | 0.000 | 0.000 | 0.000 | 0.000 |
+| F1 — `engaging` | 0.689 | 0.689 | 0.689 | 0.000 |
+
+Accuracy moved 0.000 across seeds. Stable enough to trust.
 
 ### Confusion matrix
 
@@ -228,6 +237,18 @@ of next unit's variance. -->
 | **** |  |  |  |
 | **** |  |  |  |
 | **** |  |  |  |
+| true \ predicted | creative | informational | engaging |
+|---|---|---|---|
+| **creative** | 0 | 0 | 9 |
+| **informational** | 0 | 0 | 10 |
+| **engaging** | 0 | 0 | 21 |
+
+Biggest confusion: 10 real `informational` posts called `engaging`.
+The other direction: 0 real `engaging` posts called `informational`.
+
+That's lopsided — the model leans toward `engaging` on this pair.
+A direction like that usually points at your labelling rather than the
+model. Your agreement report is the thing that can tell you which.
 
 **My biggest off-diagonal number, and what it means:**
 <!-- Not "the model made mistakes" — WHICH boundary it didn't learn, and which
